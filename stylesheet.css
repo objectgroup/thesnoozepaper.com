@@ -54,3 +54,11 @@ main {
 	outline: 1px solid grey;
 }
 
+.journal-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  outline: 1px solid grey;
+}
