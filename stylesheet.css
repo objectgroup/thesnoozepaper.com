@@ -5,8 +5,6 @@
 	font-family: HelveticaNeue-Light,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-
-
 header{
     	display: flex;
     	justify-content: center;
@@ -28,7 +26,9 @@ h4 {
   // Optional, not supported for all languages
   hyphens: auto;
   
-  font-size: clamp(1rem, -0.875rem + 6.333vw, 1.5rem);
+  font-size: clamp(1rem, -0.875rem + 6.333vw, 1.2rem);
+  line-height: 1.5 ;
+  text-indent: 22px ;
 }
 
 menu {
@@ -54,11 +54,18 @@ main {
 	outline: 1px solid grey;
 }
 
+.journal{
+  padding: 1rem;
+  max-width: 80ch;
+  margin: 0 auto;
+    outline: 1px solid red;
+
+}
 .journal-section{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px;
-  padding: 20px;
+  margin: clamp(1em, 5vw, 2em);
+  padding: clamp(1em, 5vw, 2em);
   outline: 1px solid grey;
 }
